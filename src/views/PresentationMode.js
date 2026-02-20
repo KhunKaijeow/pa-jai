@@ -369,7 +369,7 @@ export default function PresentationMode({ onClose }) {
                   text: "มีระดับความเครียดลดลง สภาวะจิตใจผ่อนคลายและตื่นรู้มากขึ้น ได้รับการพักผ่อนเชิงรุกที่มีคุณภาพ",
                 },
                 {
-                  img: "https://images.unsplash.com/photo-1529156069898-49953eb1f5ff?auto=format&fit=crop&w=800&q=80",
+                  img: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80",
                   title: "ด้านชุมชน/สังคม",
                   text: "เกิด Community ที่เข้มแข็งผ่านกิจกรรมรายเดือน ช่วยกระตุ้นเศรษฐกิจท้องถิ่นเชิง Wellness Tourism ในจังหวัดเชียงราย",
                 },
