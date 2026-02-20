@@ -1,0 +1,21 @@
+import React from "react";
+
+export default function CustomLogo({ className }) {
+  return (
+    <svg
+      viewBox="0 0 120 100"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M60,90 C60,90 20,60 20,35 C20,15 40,10 52,25 C56,30 60,38 60,38 C60,38 64,30 68,25 C80,10 100,15 100,35 C100,53 76,73 60,90 Z" />
+      <path d="M5,65 Q20,70 35,55 L45,40 L55,55 C65,45 75,40 85,55 Q100,75 115,60" />
+      <path d="M35,28 C45,28 45,38 35,38 C25,38 25,28 35,28 Z" />
+      <path d="M85,28 C75,28 75,38 85,38 C95,38 95,28 85,28 Z" />
+      <path d="M52,65 C60,55 65,65 52,75 C45,65 45,55 52,65 Z" />
+    </svg>
+  );
+}

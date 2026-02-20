@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 🌿 PAJAI (พาใจ)
+### "พื้นที่ปลอดภัย สำหรับการพักใจและดูแลความรู้สึก"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PAJAI is a modern wellness web application designed to help users monitor their mental well-being, find healing spaces in Chiang Rai, and engage in mindful breathing exercises. Built with a premium, nature-inspired aesthetic.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Key Features
 
-### `npm start`
+- **📊 Mood Analytics**: Track your emotional journey with our intuitive 7-day mood graph.
+- **💬 AI Heart Mate**: Your 24/7 empathetic companion. Talk, vent, or seek encouragement anytime via our floating AI chatbot.
+- **🗺️ Heal-Jai Map**: Discover peaceful spots, nature retreats, and quiet cafes in Chiang Rai specifically curated for mental restoration.
+- **🌬️ Breathing Space**: Interactive breathing exercises (including the 4-7-8 technique) with organic, fluid animations to help you de-stress instantly.
+- **📖 Wellness Blog**: A collection of articles on self-care, mindfulness, and healing perspectives.
+- **🛡️ Admin Dashboard**: Full control panel for managing blog content and map locations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎨 Design Philosophy
 
-### `npm test`
+PAJAI follows a **Nature-Centric Organic Design**:
+- **Palette**: Deep Forest Green (`#344e41`), Sage (`#a3b18a`), and Cream (`#dad7cd`).
+- **Aesthetics**: Glassmorphism, organic blob backgrounds, and smooth micro-animations powered by **Framer Motion**.
+- **Experience**: Clean, distraction-free interface designed to reduce cognitive load and provide a calming user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Core**: React 19
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Styling**: Tailwind CSS / Vanilla CSS
+- **Maps**: Leaflet (Dark Mode Integration)
