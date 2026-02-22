@@ -202,7 +202,7 @@ export default function App() {
       {activeTab !== "recover" &&
         activeTab !== "admin" &&
         activeTab !== "map" &&
-        (activeTab === "home" ? <Footer /> : <CompactFooter />)}
+        (activeTab === "home" ? <Footer showTeam={true} /> : <CompactFooter />)}
 
       {/* 5. Floating AI Chat Widget */}
       {user && (

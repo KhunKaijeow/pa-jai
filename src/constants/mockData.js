@@ -204,3 +204,36 @@ export const moods = [
     color: "bg-slate-500/20 text-slate-300 border-slate-500/30",
   },
 ];
+
+export const teamMembers = [
+  {
+    name: "Nathorn Tra-ngrarn",
+    nickname: "Oui",
+    img: "/images/team/POui.jpg",
+  },
+  {
+    name: "Wanop Prasertgul",
+    nickname: "Dtae",
+    img: "/images/team/PDtae.jpg",
+  },
+  {
+    name: "Prajuk Kongrugpawndamrong",
+    nickname: "Golf",
+    img: "/images/team/PGolf.jpg",
+  },
+  {
+    name: "Jukkrit Arya",
+    nickname: "Bac",
+    img: "/images/team/PBac.jpg",
+  },
+  {
+    name: "Benjawan Thikeaw",
+    nickname: "Ploy",
+    img: "/images/team/PPloy.jpg",
+  },
+  {
+    name: "Sureenipa Chaikaew",
+    nickname: "Kaijeow",
+    img: "/images/team/KJ.jpg",
+  },
+];

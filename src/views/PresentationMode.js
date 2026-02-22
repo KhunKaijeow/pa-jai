@@ -16,6 +16,7 @@ import {
   Map as MapIcon,
 } from "lucide-react";
 import CustomLogo from "../components/CustomLogo";
+import { teamMembers } from "../constants/mockData";
 
 export default function PresentationMode({ onClose }) {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -500,38 +501,7 @@ export default function PresentationMode({ onClose }) {
               ทีมผู้พัฒนา (The Team)
             </motion.h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
-              {[
-                {
-                  name: "Nathorn Tra-ngrarn",
-                  nickname: "Oui",
-                  img: "/images/team/POui.jpg",
-                },
-                {
-                  name: "Wanop Prasertgul",
-                  nickname: "Dtae",
-                  img: "/images/team/PDtae.jpg",
-                },
-                {
-                  name: "Prajuk Kongrugpawndamrong",
-                  nickname: "Golf",
-                  img: "/images/team/PGolf.jpg",
-                },
-                {
-                  name: "Jukkrit Arya",
-                  nickname: "Bac",
-                  img: "/images/team/PBac.jpg",
-                },
-                {
-                  name: "Benjawan Thikeaw",
-                  nickname: "Ploy",
-                  img: "/images/team/PPloy.jpg",
-                },
-                {
-                  name: "Sureenipa Chaikaew",
-                  nickname: "Kaijeow",
-                  img: "/images/team/KJ.jpg",
-                },
-              ].map((member, i) => (
+              {teamMembers.map((member, i) => (
                 <motion.div
                   key={i}
                   variants={itemVars}
