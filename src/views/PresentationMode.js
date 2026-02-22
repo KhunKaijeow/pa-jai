@@ -19,11 +19,11 @@ import CustomLogo from "../components/CustomLogo";
 
 export default function PresentationMode({ onClose }) {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 8;
+  const totalSlides = 9;
 
   const containerVars = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
+    visible: { opacity: 1, transition: { staggerChildren: 0.1 } },
     exit: { opacity: 0, scale: 0.95, transition: { duration: 0.3 } },
   };
 
@@ -32,7 +32,7 @@ export default function PresentationMode({ onClose }) {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: "easeOut" },
+      transition: { duration: 0.5, ease: "easeOut" },
     },
   };
 
@@ -487,6 +487,78 @@ export default function PresentationMode({ onClose }) {
         return (
           <motion.div
             key="slide-7"
+            variants={containerVars}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            className="flex flex-col h-full w-full max-w-6xl mx-auto py-10"
+          >
+            <motion.h2
+              variants={itemVars}
+              className="text-3xl md:text-5xl font-bold text-[#dad7cd] mb-12 border-b-2 border-[#588157] pb-4 text-center mx-auto"
+            >
+              ทีมผู้พัฒนา (The Team)
+            </motion.h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
+              {[
+                {
+                  name: "Nathorn Tra-ngrarn",
+                  nickname: "Oui",
+                  img: "/images/team/POui.jpg",
+                },
+                {
+                  name: "Wanop Prasertgul",
+                  nickname: "Dtae",
+                  img: "/images/team/PDtae.jpg",
+                },
+                {
+                  name: "Prajuk Kongrugpawndamrong",
+                  nickname: "Golf",
+                  img: "/images/team/PGolf.jpg",
+                },
+                {
+                  name: "Jukkrit Arya",
+                  nickname: "Bac",
+                  img: "/images/team/PBac.jpg",
+                },
+                {
+                  name: "Benjawan Thikeaw",
+                  nickname: "Ploy",
+                  img: "/images/team/PPloy.jpg",
+                },
+                {
+                  name: "Sureenipa Chaikaew",
+                  nickname: "Kaijeow",
+                  img: "/images/team/KJ.jpg",
+                },
+              ].map((member, i) => (
+                <motion.div
+                  key={i}
+                  variants={itemVars}
+                  className="bg-[#3a5a40]/40 backdrop-blur-xl border border-[#a3b18a]/20 p-4 md:p-6 rounded-[32px] flex flex-col items-center text-center group hover:bg-[#3a5a40]/60 transition-all hover:border-[#a3b18a]/40 shadow-lg"
+                >
+                  <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden mb-4 border-4 border-[#588157] group-hover:scale-105 transition-transform shadow-xl">
+                    <img
+                      src={member.img}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="text-lg md:text-xl font-bold text-[#dad7cd]">
+                    {member.name}
+                  </h3>
+                  <p className="text-[#dda15e] font-medium text-sm mb-1">
+                    ({member.nickname})
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        );
+      case 8:
+        return (
+          <motion.div
+            key="slide-8"
             variants={containerVars}
             initial="hidden"
             animate="visible"
