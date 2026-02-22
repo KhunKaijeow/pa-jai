@@ -207,7 +207,7 @@ export const moods = [
 
 export const teamMembers = [
   {
-    name: "Nathorn Tra-ngrarn",
+    name: "Nathorn Tra-ngarn",
     nickname: "Oui",
     img: "/images/team/POui.jpg",
   },
